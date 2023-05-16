@@ -1,0 +1,77 @@
+body {
+    background-image: url(forest.jpg);
+    background-size: cover;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+.login {
+    box-sizing: border-box;
+    width: 780px;
+    background-color: #242424dd;
+    color: white;
+    padding: 50px 30px 50px 30px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+}
+.home input {
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    margin: 10px;
+}
+.home input:hover {
+    background-color: #889add;
+    color: white;
+}
+a {
+    color: #738ADB;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.login .fill .welcome {
+    text-align: center;
+    margin-top: -10%;
+}
+.login .fill:hover{
+    cursor: default;
+}
+.login .fill .submit {
+    background-color: #738adbc0;
+    border: 0px;
+    height: 40px;
+    width: 335px;
+    border-radius: 5px;
+}
+.login .fill .submit:hover {
+    background-color: #738adb99;
+}
+.login input {
+    width: 330px;
+    height: 30px;
+    background: #24242408;
+    color: white;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px white solid;
+    padding-left: 5px;
+}
+.login .fill input:placeholder-shown {
+    color: white;
+    padding-left: 5px;
+}
+.login .logo img {
+    width: 100px;
+}
+.login .logo {
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    background-color: #1e1e1e54;
+    padding: 40px;
+    border-radius: 5px;
+}

@@ -1,0 +1,316 @@
+body {
+    background-color: #1b1b1b;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+.buo {
+    box-sizing:border-box;
+    width: 1150px;
+    margin:auto;
+}
+.buo .top:hover {
+    cursor: default;
+}
+img {
+    width: 5%;
+    height: auto;
+}
+.up .top {
+    text-align: center;
+    color: #26c7c7ed;
+    font-size: 60px;
+}
+.up .login{
+    float: right;
+    margin: -10% 5%;
+    list-style: none;
+
+}
+.up .login li{
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+.login .signin input{
+    color: white;
+    text-decoration: none;
+    background-color: #eab31d;
+    padding: 5px 17px 5px 17px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.login .signin input:hover{
+    background-color: #eab31dd8;
+    cursor: default;
+}
+.login .signup input{
+    background-color: #9877c6;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 0px;
+    color: white;
+}
+.login .signup input:hover{
+    background-color: #9877c6d9;
+    cursor: default;
+}
+.taskbar {
+    background-color: #39392a65;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: -20px;
+    height: 300px;
+}
+.test {
+    background-image: url(pexels-bich-tran-669996.jpg);
+    border-top-right-radius: 30px;
+    background-size: cover;
+    margin-top: -300px;
+    margin-left: 50%;
+    height: 300px;
+}
+.taskbar h2 {
+    text-align: center;
+    padding: 100px 20px 2px 20px;
+    color: #42f7d0;
+    margin-right: 50%;
+}
+.taskbar p {
+    text-align: center;
+    margin-right: 50%;
+    color: #42f7d0;
+    margin-top: -15px;
+}
+.taskbar input {
+    margin-left: 12%;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    text-align: center;
+}
+.taskbar input:placeholder-shown {
+    padding-left: 10px;
+}
+.taskbar:hover {
+    cursor: default;
+}
+.topbg ul li{
+    display: inline-block;
+}
+.option {
+    display: flex;
+}
+.topbg ul .home {
+    padding: 10px 18px 16px 18px;
+    background-color: #5b9df3;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 0px;
+    color: white;
+}
+.topbg ul .home:hover {
+    background-color:#71a8f1;
+}
+.topbg ul .category {
+    padding: 10px 18px 16px 18px;
+    background-color: #3daf89;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: -9px;
+    border: 0px;
+    color: white;
+}
+.topbg ul .category:hover {
+    background-color: #58c4a0;
+}
+
+.topbg .drop {
+    display: none;
+    position: absolute;
+    width: 160px;
+    background-color: #202020ea;
+    color: white;
+    margin-top: 0%;
+    margin-left: -9px;
+}
+.topbg .drop ul li {
+    display: block;
+    padding: 10px 40px 10px 10px;
+    margin-left: -33%;
+}
+.topbg .drop ul li:hover {
+    background-color: #444444e8;
+}
+.topbg .drop ul {
+    display: block;
+}
+.topbg .lemao:hover .drop {
+    display: block;
+}
+.topbg ul .location {
+    padding: 10px 28px 16px 28px;
+    background-color: #743998;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: -9px;
+    border: 0px;
+    color: white;
+}
+.topbg .drop1 {
+    display: none;
+    position: absolute;
+    width: 160px;
+    background-color: #202020ea;
+    color: white;
+    margin-top: 0%;
+    margin-left: -9px;
+}
+.topbg .drop1 ul li {
+    display: block;
+    padding: 10px 40px 10px 10px;
+    margin-left: -33%;
+}
+.topbg .drop1 ul li:hover {
+    background-color: #444444e8;
+}
+.topbg .drop1 ul {
+    display: absolute;
+}
+.topbg .loc:hover .drop1 {
+    display: block;
+}
+.topbg ul .location:hover {
+    background-color: #874eaa;
+}
+.topbg ul .help {
+    padding: 10px 27px 16px 27px;
+    background-color: #eab31def;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: -9px;
+    border: 0px;
+    color: white;
+}
+.topbg ul .help:hover {
+    background-color: #e9bb3f;
+}
+.topbg a {
+    text-decoration: none;
+    color: white;
+}
+.topbg a:hover {
+    cursor: default;
+}
+.info {
+    background-color: #132f436b;
+    margin-top: -10px;
+}
+.info:hover{
+    cursor: default;
+}
+.dont p {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 5%;
+}
+.dont img {
+    width: 20px;
+    text-align: center;
+}
+.option {
+    box-sizing:border-box;
+    background-color: #171717f0;
+    margin-top: -10px;
+}
+.option .registration {
+    width: 250px;
+    background-color: #7c7c7c44;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    color: white;
+    margin: 4% 3% 4% 7%;
+    border-radius: 5px;
+}
+.option .registration:hover {
+    background-color: #8383836c;
+    cursor: default;
+}
+.option img {
+    width: 50px;
+}
+.option .suggestions {
+    width: 250px;
+    background-color: #7c7c7c44;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    color: white;
+    margin: 4% 3% 4% 3%;
+    border-radius: 5px;
+}
+.option .suggestions:hover {
+    background-color: #8383836c;
+    cursor: default;
+}
+.option .purchasing {
+    width: 250px;
+    background-color: #7c7c7c44;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    color: white;
+    margin: 4% 5% 4% 3%;
+    border-radius: 5px;
+}
+.option .purchasing:hover {
+    background-color: #8383836c;
+    cursor: default;
+}
+.contact {
+    box-sizing:border-box;
+    background-color:#171717f0;
+    color: white;
+    display: flex;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contact:hover {
+    cursor: default;
+}
+.contact .heading {
+    padding: 1% 5% 4% 22%;
+}
+.contact .heading input {
+    border: 0px;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: powderblue;
+}
+.contact .heading input:hover {
+    background-color: #7cb5be;
+}
+.contact .description {
+    width: 400px;
+    padding: 4% 10% 5% 2%;
+}
+.bottom {
+    background-color: #a5d2ff9e;
+    border-radius: 10px; 
+}
+.bottom ul {
+    list-style: none;
+    display: flex;
+    padding: 1%;
+}
+.bottom ul li {
+    margin: auto;
+}
+.bottom ul li a {
+    text-decoration: none;
+    color: black;
+}
